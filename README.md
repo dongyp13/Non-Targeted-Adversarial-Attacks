@@ -8,3 +8,6 @@ We summarize our algorithm in a report [Boosting Adversarial Attacks with Moment
 
 ## Models
 We use the ensemble of eight models in our implementation. Many of them are adversarially trained models. The models can be downloaded [here](http://ml.cs.tsinghua.edu.cn/~yinpeng/nips17/nontargeted/models.zip).
+
+## Targeted Attacks
+Please find the targeted attacks at [https://github.com/dongyp13/Targeted-Adversarial-Attack](https://github.com/dongyp13/Targeted-Adversarial-Attack).
