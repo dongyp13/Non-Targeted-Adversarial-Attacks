@@ -6,7 +6,7 @@ This repository contains the code for the top-1 submission to [NIPS 2017: Non-ta
 ## Method
 We propose a momentum iterative method to generate more transferable adversarial examples. We summarize our algorithm in [Boosting Adversarial Attacks with Momentum](https://arxiv.org/pdf/1710.06081.pdf).
 
-Basically, the updat<e rule of momentum iterative method is:
+Basically, the update rule of momentum iterative method is:
 
 ![equation](http://latex.codecogs.com/gif.latex?g_%7Bt&plus;1%7D%20%3D%20%5Cmu%20%5Ccdot%20g_%7Bt%7D%20&plus;%20%5Cfrac%7B%5Cnabla_%7Bx%7DJ%28x_%7Bt%7D%5E%7B*%7D%2Cy%29%7D%7B%5C%7C%5Cnabla_%7Bx%7DJ%28x_%7Bt%7D%5E%7B*%7D%2Cy%29%5C%7C_1%7D%2C%20%5Cquad%20x_%7Bt&plus;1%7D%5E%7B*%7D%20%3D%20%5Cmathrm%7Bclip%7D%28x_%7Bt%7D%5E%7B*%7D%20&plus;%20%5Calpha%5Ccdot%5Cmathrm%7Bsign%7D%28g_%7Bt&plus;1%7D%29%29)
 
