@@ -4,7 +4,7 @@
 This repository contains the code for the top-1 submission to [NIPS 2017: Non-targeted Adversarial Attacks Competition](https://www.kaggle.com/c/nips-2017-non-targeted-adversarial-attack).
 
 ## Method
-We propose a momentum iterative method to generate more transferable adversarial examples. We summarize our algorithm in [Boosting Adversarial Attacks with Momentum](https://arxiv.org/pdf/1710.06081.pdf).
+We propose a momentum iterative method to generate more transferable adversarial examples. We summarize our algorithm in [Boosting Adversarial Attacks with Momentum](https://arxiv.org/pdf/1710.06081.pdf) (CVPR 2018, Spotlight).
 
 Basically, the update rule of momentum iterative method is:
 
@@ -14,11 +14,11 @@ Basically, the update rule of momentum iterative method is:
 ### Citation
 If you use momentum iterative method for attacks in your research, please consider citing
 
-    @article{dong2017boosting,
+    @inproceedings{dong2018boosting,
       title={Boosting Adversarial Attacks with Momentum},
-      author={Dong, Yinpeng and Liao, Fangzhou and Pang, Tianyu and Su, Hang and Hu, Xiaolin and Li, Jianguo and Zhu, Jun},
-      journal={arXiv preprint arXiv:1710.06081},
-      year={2017}
+      author={Dong, Yinpeng and Liao, Fangzhou and Pang, Tianyu and Su, Hang and Zhu, Jun and Hu, Xiaolin and Li, Jianguo},
+      booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+      year={2018}
     }
 
 ## Implementation
