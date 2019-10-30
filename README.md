@@ -28,6 +28,9 @@ We use the ensemble of eight models in our submission, many of which are adversa
 
 If you want to attack other models, you can replace the model definition part to your own models.
 
+### Dataset
+We use a subset of ImageNet validation set containing 1000 images, most of which are correctly classified by those models. Our dataset can be downloaded at [http://ml.cs.tsinghua.edu.cn/~yinpeng/adversarial/dataset.zip](http://ml.cs.tsinghua.edu.cn/~yinpeng/adversarial/dataset.zip). You can alternatively use the NIPS 2017 competition official [dataset](https://github.com/tensorflow/cleverhans/tree/master/examples/nips17_adversarial_competition/dataset).
+
 ### Cleverhans
 We also implement this method in [Cleverhans](https://github.com/tensorflow/cleverhans/blob/master/cleverhans/attacks.py#L454-L605).
 
